@@ -5,7 +5,7 @@ namespace Tightenco\Collect\Tests\Support;
 use stdClass;
 use ArrayObject;
 use Tightenco\Collect\Support\Arr;
-use Tightenco\Collect\Support\Carbon;
+use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
 use Tightenco\Collect\Support\Collection;
 

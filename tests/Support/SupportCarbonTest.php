@@ -4,7 +4,7 @@ namespace Tightenco\Collect\Tests\Support;
 
 use DateTime;
 use DateTimeInterface;
-use Tightenco\Collect\Support\Carbon;
+use Carbon\Carbon;
 use PHPUnit\Framework\TestCase;
 use Carbon\Carbon as BaseCarbon;
 
@@ -58,7 +58,7 @@ class SupportCarbonTest extends TestCase
 
     /**
      * @expectedException \BadMethodCallException
-     * @expectedExceptionMessage Method Tightenco\Collect\Support\Carbon::nonExistingStaticMacro does not exist.
+     * @expectedExceptionMessage Method nonExistingStaticMacro does not exist.
      */
     public function testCarbonRaisesExceptionWhenStaticMacroIsNotFound()
     {
@@ -67,7 +67,7 @@ class SupportCarbonTest extends TestCase
 
     /**
      * @expectedException \BadMethodCallException
-     * @expectedExceptionMessage Method Tightenco\Collect\Support\Carbon::nonExistingMacro does not exist.
+     * @expectedExceptionMessage Method nonExistingMacro does not exist.
      */
     public function testCarbonRaisesExceptionWhenMacroIsNotFound()
     {
